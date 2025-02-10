@@ -1,0 +1,255 @@
+header img{
+    max-width: 100px;
+    width: 85%;
+    height: auto;
+    display: block;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    object-fit: cover;
+}
+header p{
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2rem;
+    display: flex;
+    margin-right: 43%;
+    
+    
+}
+
+header {
+    display: flex;
+    padding: 1%;
+    background-color: rgb(5, 51, 12);
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header nav{
+    justify-content: flex-end;
+    display: flex;
+    width: 25%;
+    height: 8%;
+    align-items: center;
+    margin-left: 3%;
+    gap: 8%;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 100%;
+    background-color: rgb(188, 21, 29);
+    padding: 5%;
+    border-radius: 5px;
+    height: 30px;
+    width: 60%;
+    font-size: large;
+    border: solid rgb(13, 36, 13);
+}
+
+header nav a:hover {
+    color: green;
+}
+
+#hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#hero #hero-p {
+    margin-top: 14%;
+    color: antiquewhite;
+    font-size: 1.7rem;
+    margin-left: 5%;  
+    font-weight: bolder; 
+}
+#hero #hero-p a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1.2rem;
+    background-color: rgb(105, 4, 4);
+    padding: 1%;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+#hero #hero-p a:hover {
+    color: green;
+}
+
+#hero #hero-block {
+    color: rgb(246, 251, 253);
+    text-align: center;
+    margin-top: 6%;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+#introduction h1 {
+    color: brown;
+    text-align: center;
+    font-size:180%;
+    margin-top: 5%;
+}
+
+#introduction p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+#introduction a {
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    margin-left: 45%;
+}
+
+#introduction #intro-p {
+    background-color: rgb(30, 92, 42);
+    align-items: center;
+    padding: 3%;
+    border-radius: 1rem;
+}
+
+#introduction #intro-p a:hover{
+    color: green;
+}
+
+#clients-reviews h2 {
+    color: brown;
+    text-align: center;
+    font-size:180%;
+    margin-top: 5%;
+}
+
+#clients-reviews .reviews img {
+    width: 90%;
+}
+
+#clients-reviews .reviews {
+    display: flex;
+}
+
+#clients-reviews .reviews figcaption {
+    color: brown;
+    font-size: 1.2rem;
+}
+
+#clients-reviews .reviews p {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: rgb(20, 19, 19);
+}
+
+.footer .quicklinks p.heading {
+    color: #ffd1d1;
+    font-weight: bolder;
+    font-size: larger;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.footer .quicklinks a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .quicklinks a:hover {
+    color: blue;
+}
+
+.footer .quicklinks ul li {
+    color: white;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#awards #awards-pictures{
+    display: flex;
+}
+
+
+
+#awards p {
+    font-size: larger;
+    color: white;
+    font-weight: bolder;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#awards #awards-pictures img {
+    border-radius: 50%;
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+#awards #awards-pictures figcaption {
+    color: white;
+    margin-top: 20px;
+}
+
+#footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-logo img {
+    width: 120px;
+    max-width: 150%;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+#footer-logo figcaption {
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#footer-contact p {
+    color: white;
+    margin-left: 4%;
+    margin-top: 40px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+#footer-contact a {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    gap: 40px;
+}
