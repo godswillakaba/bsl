@@ -209,8 +209,8 @@ footer {
 
 #awards #awards-pictures img {
     border-radius: 50%;
-    max-width: 150px;
-    width: 100%;
+    max-width: 100px;
+    width: 90px;
     height: auto;
 }
 
@@ -219,7 +219,7 @@ footer {
     margin-top: 20px;
 }
 
-#footer-logo {
+/*#footer-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,4 +252,68 @@ footer {
     flex-direction: column;
     margin-left: 4%;
     gap: 40px;
+}*/
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+}
+
+#bottom #footer-contact p {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#bottom #footer-contact a {
+    text-decoration: none;
+    color: white;
+    margin:20px 0;
+}
+
+#footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#bottom #footer-logo img {
+    width: 130px;
+    max-width: 120%;
+    border-radius: 50%;
+    margin-top: 50px;
+    border: 5px solid blue;
+}
+
+#bottom #footer-logo figcaption {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+#bottom #footer-socials {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+#bottom #footer-socials img {
+    border-radius: 50%;
+    border: 5px solid green;
+
+}
+
+.footerline{
+    color: white;
+    width: 80%;
+    height: 0;
+
+}
+#copyright p {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
 }
